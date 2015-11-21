@@ -1,0 +1,65 @@
+body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -50px;
+    padding: 0 0 50px;
+}
+
+a,
+i,
+input,
+label[for="compare"]{
+  cursor: pointer;
+}
+
+h4, 
+h5 {
+    font-weight: bold;
+}
+
+.compare {
+    margin-top: 1%;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+#star,
+#map {
+    background-color: #fafafa;
+    height: 85vh;
+}
+
+#footer {
+    height: 50px;
+}
+
+button,
+.pagination {
+    box-shadow: 1px 1px 1px #888;
+}
+
+.pagination {
+    margin: 0;
+}
+
+.pagination > li > a {
+    color: #333;
+}
+
+.pagination > li > a:hover {
+    background-color: #ebebeb;
+    color: #333;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:hover {
+    background-color: #ddd;
+    border-color: #ccc;
+    color: #333;
+}
